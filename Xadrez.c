@@ -3,7 +3,7 @@
 
 int main(){
 
-int bispo = 1, rainha = 1;
+int bispo = 1, rainha = 1, cavalo = 1;
 
 // Movimentação do Bispo
 printf("\nMovimentação do Bispo\n");
@@ -25,6 +25,19 @@ printf("\nMovimentação da Torre\n");
 for (int i = 1; i <= 5 ; i++)
 {
     printf("Direita\n");
+}
+
+// Movimentação do Cavalo
+printf("\nMovimentação do Cavalo\n");
+//for (cavalo = 1; cavalo <= 1; cavalo++)
+while (cavalo <= 1)
+{
+
+    for (int i = 1; i <= 2; i++){
+        printf("Cima \n");
+    }
+    cavalo++;
+    printf("Direita \n");
 }
 
 
